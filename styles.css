@@ -6,8 +6,9 @@ body {
     margin: 0;
 }
 
-:root{
-    --bar-width: 60px;
+/* always declare all CSS variable in root so that it will be available to all child components.  */
+:root{ 
+    --bar-width: 45px;
     --bar-height: 8px;
     --hamburger-gap: 6px;
     --foreground: #333;
